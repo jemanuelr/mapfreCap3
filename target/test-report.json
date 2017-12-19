@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5086570661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TesteCadastroStep.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Cadastro de propsota para o Produto Tradicional Simples",
+        "description": "",
+        "id": "incluir-uma-nova-proposta;cadastro-de-propsota-para-o-produto-tradicional-simples",
+        "after": [
+          {
+            "result": {
+              "duration": 5549211714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TesteCadastroStep.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3241965848,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Que o login esta sendo efetuado e a pagina de cadastro esta aberta",
+            "match": {
+              "location": "TesteCadastroStep.acessoLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2891343652,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O cadastro inicia-se informando o tipo do produto",
+            "match": {
+              "location": "TesteCadastroStep.dadosProposta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6857851983,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Informamos os dados do Subscritor",
+            "match": {
+              "location": "TesteCadastroStep.dadosSubscritor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5758927035,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Os dados do titular",
+            "match": {
+              "location": "TesteCadastroStep.dadosTitular()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4556269938,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Os dados do angariador",
+            "match": {
+              "location": "TesteCadastroStep.dadosAngariador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4831118515,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Os dados do corretor",
+            "match": {
+              "location": "TesteCadastroStep.dadosCorretor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5182082813,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Os dados do locador",
+            "match": {
+              "location": "TesteCadastroStep.dadosLocador()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7260415003,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Os dados do locatario",
+            "match": {
+              "location": "TesteCadastroStep.dadosLocatario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4680962946,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Os dados da imobiliaria",
+            "match": {
+              "location": "TesteCadastroStep.dadosImobiliaria()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1514256196,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Gravamos o cadastro e guardamos a evidencia",
+            "match": {
+              "location": "TesteCadastroStep.gravar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29835839165,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Finalizamos o cadastro",
+            "match": {
+              "location": "TesteCadastroStep.efetivar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Cadastro"
+          }
+        ]
+      }
+    ],
+    "name": "Incluir uma nova proposta",
+    "description": "\r\nPercorrer todo os processo para finalizar o status do cliente\r\nCadastro\r\nBaixa de Pagamento e N�mero de Titulo e da Sorte",
+    "id": "incluir-uma-nova-proposta",
+    "keyword": "Feature",
+    "uri": "src/test/java/cucumber/TesteMapfre.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CadastroSimples"
+      }
+    ]
+  }
+]
